@@ -23,8 +23,8 @@ const menu = [
 ]
 const Navbar = ()=>{
     return(
-        <nav>
-            <Container>
+        <nav >
+            <Container >
                 <Flex className="items-center justify-between">
                     <div>
                         <img src={logo}/>

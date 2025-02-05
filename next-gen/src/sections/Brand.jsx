@@ -29,9 +29,9 @@ const brandImage = [
 ]
 const Brand = () => {
   return (
-    <section>
+    <section className="py-40">
         <Container>
-            <Flex className={`${brandImage >5 && 'flex-wrap'} gap-28 py-7`}>
+            <Flex className={`${brandImage >5 && 'flex-wrap'} gap-28 `}>
                 {brandImage.map( ({src,alt}) =>(
                     <div key={alt} className="w-fit">
                         <img src={src} alt={alt} />
