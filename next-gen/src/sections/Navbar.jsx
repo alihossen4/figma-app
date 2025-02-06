@@ -40,10 +40,10 @@ const Navbar = ()=>{
                     </menu>
                     <Flex className='gap-4'>
                         <Button text={"Log in"} />
-
+                            
                         <Button text={"Sign up"} bghow={false} />
                     </Flex>
-        
+    
 
                 </Flex>
             </Container>

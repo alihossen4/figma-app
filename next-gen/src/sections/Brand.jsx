@@ -29,7 +29,7 @@ const brandImage = [
 ]
 const Brand = () => {
   return (
-    <section className="py-40">
+    <section className="py-40 text-center">
         <Container>
             <Flex className={`${brandImage >5 && 'flex-wrap'} gap-28 `}>
                 {brandImage.map( ({src,alt}) =>(
