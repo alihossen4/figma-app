@@ -1,18 +1,27 @@
 @import "tailwindcss";
 
+
+
+@theme {
+  --color-primaryBg: "var(--color-primaryBg)";
+  --color-text-primary: "var(--color-text-primary)";
+  --color-text-secondary: "var(--color-text-secondary)";
+} 
+@layer utilities{
 :root{
     --color-primaryBg:#04040c;
     --color-text-primary:#f7e3e3;
     --color-text-secondary: #bc61f3;
-}
+}}
 /* @theme{
-  --color-primaryBg: var("--primaryBg");
+  --color-primaryBg: var("--prim aryBg");
   --color-text-primary: var("--text-primary");
   --color-text-secondary: var("--text-secondary");
 } */
 body {
     background-color: var(--color-primaryBg);
     box-sizing: border-box;
+    color: var(--color-text-primary);
   }
 nav{
     color: var(--color-text-primary);
