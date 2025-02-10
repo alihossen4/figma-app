@@ -2,6 +2,7 @@ import { Routes ,Route } from "react-router";
 import Home from "./pages/Home";
 import RootLayout from "./layouts/RootLayout";
 import Marketplace from "./pages/Marketplace";
+
 function App(){
   return(
     
