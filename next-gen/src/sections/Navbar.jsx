@@ -23,11 +23,11 @@ const menu = [
 ]
 const Navbar = ()=>{
     return(
-        <nav >
+        <nav>
             <Container >
                 <Flex className="items-center justify-between">
                     <div>
-                        <img src={logo}/>
+                        <img src={logo} className="relative"/>
                     </div>
                     <menu>
                         <ul className="flex gap-14 text-[#f0f0f0]">

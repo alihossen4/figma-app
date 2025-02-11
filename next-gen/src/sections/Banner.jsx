@@ -4,8 +4,8 @@ import Button from "../components/Button"
 import bannerImg from "../assets/banner.png"
 const Banner = () =>{
     return (
-    <section>
-        <Container>
+    <section className="items-center jsutify-between">
+        <Container className="items-center jsutify-between">
             <Flex>
                 <div className="max-w-[806px] mt-30">
                     <h1 className="font-black text-white text-8xl banner-heading mt-20">Best NFTs 
@@ -16,10 +16,10 @@ const Banner = () =>{
                         <Button text={'Create NFTs'} bghow={false}/>
                     </Flex>
                 </div>
-                <Flex className='relative justify-center w-[650px] h-[650px] overflow-hidden mt-20'>
-                    <img src={bannerImg} className="rounded-full border-[4px] border-[#535488]"/>
+                <div className='relative justify-center w-[650px] h-[650px] overflow-hidden mt-20 '>
+                    <img src={bannerImg} className="absolute rounded-full border-[4px] border-[#535488] right-0 justify-end" />
                     <div className="absolute banner-image-overlay w-full h-full"></div>
-                </Flex>
+                </div>
             </Flex>
         </Container>
     </section>
