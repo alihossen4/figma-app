@@ -11,7 +11,7 @@ const Home = () =>{
         <Brand />
         <NFT />
         <TopCreators />
-        <NftCollection />
+        {/* <NftCollection /> */}
         <NftColect />
     </>);
 };
